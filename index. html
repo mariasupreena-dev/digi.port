@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Supreena's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header>
+        <h1>Supreena</h1>
+        <p>Aspiring Web Developer</p>
+        <nav>
+            <ul>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Supreena and I want to become a skilled web developer. I enjoy learning new technologies and creating interactive web applications.</p>
+        <h3>Resume</h3>
+        <p><strong>Education:</strong> B.Sc. Computer Science (in progress)</p>
+        <p><strong>Skills:</strong> HTML, CSS, JavaScript, React (learning), Node.js (beginner)</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript & DOM Manipulation</li>
+            <li>Responsive Web Design</li>
+            <li>Version Control (Git)</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio website showcasing my skills and projects using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project">
+            <h3>Todo App</h3>
+            <p>A simple task management app where users can add, delete, and edit their daily tasks.</p>
+        </div>
+        <div class="project">
+            <h3>Weather App</h3>
+            <p>A web app that fetches and displays weather data from an API based on user location.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label><br/>
+            <input type="text" id="name" name="name" required><br/><br/>
+
+            <label for="email">Email:</label><br/>
+            <input type="email" id="email" name="email" required><br/><br/>
+
+            <label for="message">Message:</label><br/>
+            <textarea id="message" name="message" rows="5" required></textarea><br/><br/>
+
+            <button type="submit">Send</button>
+        </form>
+        <p>Or email me at: <a href="mailto:supreena@example.com">supreena@example.com</a></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
